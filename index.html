@@ -14,7 +14,8 @@
 
 <script>
 	$(document).ready(function() {
-		alert(11);
-		window.location = './index.php';
+		$.get('./index.php', function(data) {
+			$('p').text(data);
+		})
 	});
 </script>
