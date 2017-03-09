@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div id="content">
-		<h3>Time: <?= date() ?></h3>
+		<h3>Time: <?= date('Y-m-d H:i:s') ?></h3>
 		<h3>来呀，互相伤害啊！！！</h3>
 		<p class="w-50"><img src="./img.jpg" title="莫慌，抱紧哥"></p>
 	</div>
